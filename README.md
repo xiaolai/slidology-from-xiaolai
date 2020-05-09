@@ -7,3 +7,7 @@
 课前视频《如何把自己变傻？》的百度盘链接：
 
 > 链接: https://pan.baidu.com/s/1yZ8bq4StdIisbmd0Gtd4jA 提取码：`gtuo`
+
+如何把 Microsof Word 当作白板教学工具？
+
+> [如何把 Microsof Word 当作白板教学工具？](MS-Word-as-Whiteboard/README.md)
