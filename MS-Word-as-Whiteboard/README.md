@@ -24,7 +24,7 @@ Sub Macro_Selection_Font_Color_BLUE()
 End Sub
 
 Sub Macro_Selection_Font_Color_BLACK_WHITE_SWITCH()
-    If Selection.Font.ColorIndex = wdWhite Then
+    If Selection.Font.ColorIndex = wdBlack Then
         Selection.Font.ColorIndex = wdWhite
     Else
         Selection.Font.ColorIndex = wdBlack
