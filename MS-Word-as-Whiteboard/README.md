@@ -15,6 +15,7 @@
 在左侧上部 “Project - Normal” 面板中选择 “NewMacros”，而后在右侧 “Normal - NewMacros (Code)” 面板中输入以下代码（或者拷贝粘贴）：
 
 ```vba
+
 Sub Macro_Selection_Font_Color_RED()
     Selection.Font.ColorIndex = wdDarkRed
 End Sub
@@ -25,9 +26,10 @@ End Sub
 
 Sub Macro_Selection_Font_Color_BLACK_WHITE_SWITCH()
     If Selection.Font.ColorIndex = wdWhite Then
-        Selection.Font.ColorIndex = wdWhite
-    Else
         Selection.Font.ColorIndex = wdBlack
+    Else
+        Selection.Font.ColorIndex = wdWhite
+    End If
 End Sub
 
 Sub Macro_Selection_Highlight_switch()
