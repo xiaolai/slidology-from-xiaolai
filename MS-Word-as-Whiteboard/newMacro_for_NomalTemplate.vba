@@ -1,3 +1,4 @@
+
 Sub Macro_Selection_Font_Color_RED()
     Selection.Font.ColorIndex = wdDarkRed
 End Sub
@@ -17,10 +18,8 @@ End Sub
 Sub Macro_Selection_Highlight_switch()
     If Selection.Range.HighlightColorIndex = wdNoHighlight Then
         Selection.Range.HighlightColorIndex = wdYellow
-        Selection.Font.ColorIndex = wdBlack
     Else
         Selection.Range.HighlightColorIndex = wdNoHighlight
-        Selection.Font.ColorIndex = wdWhite
     End If
 End Sub
 
@@ -56,5 +55,3 @@ Sub Macro_Selection_to_Question_mark()
     Selection.InsertAfter (strTemp + " ")
     Selection.MoveRight Unit:=wdCharacter, Count:=1
 End Sub
-
-
