@@ -60,7 +60,7 @@ Sub Macro_Selection_Font_Shrink()
     Selection.Font.Shrink
 End Sub
 
-Sub Macro_Selection_to_Question_mark()
+Sub Macro_Selection_to_Question_Mark()
     Dim length As Integer
     Dim strTemp As String
     strTemp = ""
@@ -97,7 +97,7 @@ End Sub
 | Macro_Selection_Font_Color_BLACK_WHITE_SWITCH | `⌘ 5` | 将选中文本颜色进行黑白切换           |
 | Macro_Selection_Font_Color_BLUE               | `⌘ 6` | 将选中文本颜色设置为深蓝色           |
 | Macro_Selection_Font_Color_RED                | `⌘ 7` | 将选中文本颜色设置为深红色           |
-| Macro_Selection_to_Question_mark()             | `⌘ 8` | 将选中文本替换为问号字符串             |
+| Macro_Selection_to_Question_Mark              | `⌘ 8` | 将选中文本替换为问号字符串             |
 | Macro_Selection_Double_Strikethrogh           | `⌘ 9` | 将选中文本加上双删除线               |
 | Macro_Selection_Reset                         | `⌘ 0` | 将选中文本的字体恢复为默认颜色与大小 |
 
