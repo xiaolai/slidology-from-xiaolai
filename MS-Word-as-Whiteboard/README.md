@@ -136,4 +136,13 @@ End Sub
 现在，直播平台基本上都支持 [OBS](https://obsproject.com/) 推流。在 OBS 场景布置中，放一个 “窗口捕捉”，显示 Word 窗口，即可以拥有一个相当方便的 “白板”（或 “黑板”、甚至 “绿板”）。
 
 
+------
+补充：
 
+设置好的 Kyeboard Customization 和 Macro 都共同保存在 `Normal.dotm` 这个模板文件中，在 MacOS 下寻找 `Normal.dotm` 的位置：
+
+```bash 
+cd $HOME
+find . -name 'Normal.dotm' 2>/dev/null
+```
+将这个文件做个备份，将来万一重新安装了 Word 的时候，用备份替换一下，就不用再设置一遍了。
